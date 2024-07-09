@@ -1,0 +1,4 @@
+repository "fluids@lightspread@cloud"
+  path "/"
+    br "/main"
+    co "/main"

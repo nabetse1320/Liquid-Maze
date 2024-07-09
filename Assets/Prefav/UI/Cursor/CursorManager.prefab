@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3814749955828526820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 332852235670413909}
+  - component: {fileID: 8368640828726418832}
+  m_Layer: 0
+  m_Name: CursorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &332852235670413909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3814749955828526820}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1858.8281, y: 61.799267, z: -504.18015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8368640828726418832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3814749955828526820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3b7179ba29af84989b6d8cc7bad4b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTextureArray:
+  - {fileID: 2800000, guid: a8c46adfc4294dd409533f26f00b40a1, type: 3}
+  - {fileID: 2800000, guid: f73b58af399ef1e4a9b7f86be7ff9fad, type: 3}
+  - {fileID: 2800000, guid: 3b25351b6ef6e4a49a19ffad3821e893, type: 3}
+  - {fileID: 2800000, guid: ba084b1e45789e34b9c514ba6dcce974, type: 3}
+  - {fileID: 2800000, guid: 66a83b332b88d274193cd4d5e1e88599, type: 3}
+  - {fileID: 2800000, guid: 9c8d9a8d0d32b0f4ea24dabe05a1b6c7, type: 3}
+  - {fileID: 2800000, guid: 7204d827d005ad54ca4d03a0c0e38b22, type: 3}
+  - {fileID: 2800000, guid: a8d3dab4af8eafe49b6ff012f153ad1c, type: 3}
+  - {fileID: 2800000, guid: 8a845b5ca2ba5b84aa37c8bf07114a2a, type: 3}
+  - {fileID: 2800000, guid: 9d9b841ecc94fab4c93158454930469a, type: 3}
+  - {fileID: 2800000, guid: 53bfabde385b17547b0d740652568a62, type: 3}
+  - {fileID: 2800000, guid: 023302de13464aa428083cf960b1f7a5, type: 3}
+  - {fileID: 2800000, guid: f86148b77dc5cde4089407d7e9c27d45, type: 3}
+  - {fileID: 2800000, guid: 214eab8ec256f2543a876b5b613f99fe, type: 3}
+  - {fileID: 2800000, guid: 59efe7b34445b8f48981ad2479667fa9, type: 3}
+  - {fileID: 2800000, guid: 6556cd6898cc1424d9ec51b121ab766c, type: 3}
+  - {fileID: 2800000, guid: 7ace9d45bc8bf2e48ad2a0c88f1708ab, type: 3}
+  - {fileID: 2800000, guid: 084812624c39ebb45a2f4ccc4d8b9aaf, type: 3}
+  - {fileID: 2800000, guid: c5b865350978183419cc640ed094227b, type: 3}
+  - {fileID: 2800000, guid: 1bb1f04023723d248a5bee0b5032af71, type: 3}
+  - {fileID: 2800000, guid: c5b865350978183419cc640ed094227b, type: 3}
+  - {fileID: 2800000, guid: 084812624c39ebb45a2f4ccc4d8b9aaf, type: 3}
+  - {fileID: 2800000, guid: 7ace9d45bc8bf2e48ad2a0c88f1708ab, type: 3}
+  - {fileID: 2800000, guid: 6556cd6898cc1424d9ec51b121ab766c, type: 3}
+  - {fileID: 2800000, guid: 59efe7b34445b8f48981ad2479667fa9, type: 3}
+  - {fileID: 2800000, guid: 214eab8ec256f2543a876b5b613f99fe, type: 3}
+  - {fileID: 2800000, guid: f86148b77dc5cde4089407d7e9c27d45, type: 3}
+  - {fileID: 2800000, guid: 023302de13464aa428083cf960b1f7a5, type: 3}
+  - {fileID: 2800000, guid: 53bfabde385b17547b0d740652568a62, type: 3}
+  - {fileID: 2800000, guid: 9d9b841ecc94fab4c93158454930469a, type: 3}
+  - {fileID: 2800000, guid: 8a845b5ca2ba5b84aa37c8bf07114a2a, type: 3}
+  - {fileID: 2800000, guid: a8d3dab4af8eafe49b6ff012f153ad1c, type: 3}
+  - {fileID: 2800000, guid: 7204d827d005ad54ca4d03a0c0e38b22, type: 3}
+  - {fileID: 2800000, guid: 9c8d9a8d0d32b0f4ea24dabe05a1b6c7, type: 3}
+  - {fileID: 2800000, guid: 66a83b332b88d274193cd4d5e1e88599, type: 3}
+  - {fileID: 2800000, guid: ba084b1e45789e34b9c514ba6dcce974, type: 3}
+  - {fileID: 2800000, guid: 3b25351b6ef6e4a49a19ffad3821e893, type: 3}
+  - {fileID: 2800000, guid: f73b58af399ef1e4a9b7f86be7ff9fad, type: 3}
+  - {fileID: 2800000, guid: a8c46adfc4294dd409533f26f00b40a1, type: 3}
+  frameCount: 39
+  frameRate: 0.02
+  ocultarCursorConElTiempo: 0
+  timeToHideCursor: 5
